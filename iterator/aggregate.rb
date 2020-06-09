@@ -1,0 +1,5 @@
+module Aggregate
+  def iterator
+    raise NotImplementedError.new("#{self.class}##{__class__}が実装されていません。")
+  end
+end
