@@ -8,6 +8,7 @@ class Main
     book_shelf.append_book(book: Book.new(name: "Bible"))
     book_shelf.append_book(book: Book.new(name: "Cinderella"))
     book_shelf.append_book(book: Book.new(name: "Daddy-long-legs"))
+    book_shelf.append_book(book: Book.new(name: "ET"))
     it = book_shelf.iterator
     while it.has_next?
       book = it.next
